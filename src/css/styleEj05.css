@@ -1,0 +1,40 @@
+
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;
+    background-color: #FBF6F0;
+    font-weight: bold;
+    flex-direction: column;
+    gap: 5%;
+}
+.contenedor{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+contendor img{
+    width: 80px;
+    height: 80px;
+    border: 2px solid #E4C7a8;
+    background-color: bisque;
+}
+.total{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cuadro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E4C7a8 ;
+    padding: 30px 40px;
+    gap: 15px;
+}
+.btnTotal{
+    background-color: #F3e1de;
+    font-weight: bold;
+    padding: 10px 15px;
+}
