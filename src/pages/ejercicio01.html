@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/ejercicio01.css" />
+    <title>Ejercicio 1</title>
+  </head>
+  <body>
+    <h1>Registro de Alumnos</h1>
+
+    <form id="form-estudiante">
+      <div>
+        <label for="nombre">Nombre:</label>
+        <input
+          type="text"
+          id="nombre"
+          name="nombre"
+          placeholder="Ej: Maria"
+          required
+        />
+      </div>
+
+      <div>
+        <label for="apellido">Apellido:</label>
+        <input
+          type="text"
+          id="apellido"
+          name="apellido"
+          placeholder="Ej: Diaz"
+          required
+        />
+      </div>
+
+      <div>
+        <label for="libreta">Libreta Universitaria:</label>
+        <input
+          type="text"
+          id="libreta"
+          name="libreta"
+          placeholder="Ej: APU999999"
+          required
+        />
+      </div>
+
+      <button type="submit" id="btn-guardar">Agregar Estudiante</button>
+    </form>
+
+    <h2>Lista de Registrados</h2>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Nombre</th>
+          <th>Apellido</th>
+          <th>Libreta Universitaria</th>
+        </tr>
+      </thead>
+
+      <tbody id="tabla-estudiantes"></tbody>
+    </table>
+
+    <script type="module" src="../js/ejercicio01.js"></script>
+  </body>
+</html>
