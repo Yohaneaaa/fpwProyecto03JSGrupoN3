@@ -1,0 +1,43 @@
+body{
+    background-color: #FBF6F0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 30px;
+}
+
+.contenedor{
+    max-width: 800px;
+    margin: auto;
+}
+
+h1{
+    color: #CBB9A6;
+}
+
+button{
+    background-color: #E4C7A8;
+    color: #ffffff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover{    
+    background-color: #CBB9A6;
+}
+
+#resultado{
+    margin-top: 20px;
+}
+
+.producto{
+    background-color: #F3E1DE;
+    border: 2px solid #E9D8C4;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px auto;
+    width: 300px;
+}
