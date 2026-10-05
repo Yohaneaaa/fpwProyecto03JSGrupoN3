@@ -23,6 +23,14 @@ h1 {
   cursor: pointer;
 }
 
+#filtroPuntaje {
+  padding: 10px;
+  background-color: #F3E1DE;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
 #botonFiltrar {
   padding: 10px 20px;
   background-color: #E4C7A8;

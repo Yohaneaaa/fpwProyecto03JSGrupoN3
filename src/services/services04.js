@@ -1,8 +1,11 @@
-export const filtrarPeliculas = (lista, genero) => {
-    if (genero === "Todos") {
-        return lista;
+export const filtrarPeliculas = (lista, genero, puntaje) => {
+    if (genero !== "Todos") {
+        lista = lista.filter((pelicula) => pelicula.genero === genero);
     }
-    return lista.filter((pelicula) => pelicula.genero === genero);
+    if (puntaje !== "Todos") {
+        lista = lista.filter((pelicula) => pelicula.puntaje >= puntaje);
+    }
+    return lista;
 };
 
 export const mostrarPeliculas = (lista, contenedor) => {
