@@ -1,0 +1,61 @@
+.ejercicio02 {
+    margin: 0;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto 1fr auto;
+    gap: 15px;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    background-color: #FBF6F0;
+    transition: background-color 0.5s;
+}
+
+.ejercicio02 h1 {
+    margin: 0;
+    font-size: 2rem;
+    color: #5C4B3E;
+}
+
+.ejercicio02 .imagen-principal {
+    min-height: 0;
+    padding: 30px 0;
+}
+
+.ejercicio02 .imagen-principal img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.ejercicio02 .cuadro {
+    justify-self: center;
+    display: grid;
+    justify-items: center;
+    gap: 15px;
+    padding: 20px 40px;
+    border: 2px solid #A38B74;
+    border-radius: 15px;
+}
+
+.ejercicio02 h2 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #5C4B3E;
+}
+
+.ejercicio02 button {
+    padding: 20px 40px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #5C4B3E;
+    background-color: #F3E1DE;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.ejercicio02 button:hover {
+    background-color: #CBB9A6;
+}
