@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 40px 20px;
+  background-color: #FBF6F0;
+  color: #514747;
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+h1 {
+  text-align: center;
+  color: #514747;
+}
+
+#filtroGenero {
+  padding: 10px;
+  background-color: #F3E1DE;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#filtroPuntaje {
+  padding: 10px;
+  background-color: #F3E1DE;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#botonFiltrar {
+  padding: 10px 20px;
+  background-color: #E4C7A8;
+  color: #514747;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#listaPeliculas {
+  display: grid;
+  grid-template-columns: 100%;
+  gap: 15px;
+  max-width: 500px;
+  margin: 25px auto;
+  padding: 0;
+  list-style: none;
+}
+
+#listaPeliculas li {
+  padding: 15px;
+  background-color: #F3E1DE;
+  border: none;
+  border-radius: 10px;
+}
